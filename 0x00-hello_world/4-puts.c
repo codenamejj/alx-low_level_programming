@@ -1,11 +1,11 @@
-/*This code prints code with puts*/
+/*Using puts.*/
 
 #include <stdio.h>
 
 /*
-* program starts with -main()
+* Program start: main.
 *
-* program terminated when return is (0)
+* Program end: return.
 */
 int main(void)
 
