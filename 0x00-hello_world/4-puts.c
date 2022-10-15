@@ -1,13 +1,11 @@
-/*This code prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
-*Use the function puts
-*You are not allowed to use printf
-*Your program should end with the value 0
-*/
+/*This code prints code with puts*/
+
 #include <stdio.h>
 
 int main(void)
 
 {
+/*we use '/' to escape the special character "*/
 	char *str = "\"Programming is like building a multilingual puzzle";
 
 	puts(str);
