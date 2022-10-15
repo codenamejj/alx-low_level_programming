@@ -2,7 +2,8 @@
 
 #include <stdio.h>
 
-char main(void)
+/*main*/
+int main(void)
 
 {
 /*we use '/' to escape the special character "*/
