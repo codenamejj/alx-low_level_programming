@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main(int argc, char arv[])
+char main(void)
 
 {
 /*we use '/' to escape the special character "*/
