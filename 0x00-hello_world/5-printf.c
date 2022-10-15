@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
-*main- program start & must return 0
+*main - entry point
+*
+*Return - exit point
 */
 int main(void)
 
