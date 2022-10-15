@@ -2,7 +2,10 @@
 
 #include <stdio.h>
 
-/*main*/
+/*
+* program starts with -main()
+* program terminated when return is (0)
+*/
 int main(void)
 
 {
