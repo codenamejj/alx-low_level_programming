@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
-* Program start: main.
+* main - Init point.
 *
 * Program end: return.
 */
