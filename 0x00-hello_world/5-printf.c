@@ -3,7 +3,7 @@
 /**
 *main - entry point
 *
-*Return - exit point
+*retun: must be 0 (success)
 */
 int main(void)
 
