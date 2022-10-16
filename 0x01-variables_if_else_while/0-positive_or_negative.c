@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /*
-* main - print random number of a variable
+*main - print random num
 *
-* return: 0
+*Return: 0
 */
 int main(void)
 {
