@@ -4,10 +4,8 @@
 *
 * Return: 0 always
 */
-int main(void)
+int main(char alph)
 {
-	int alph;
-
 	for (alph = 'a'; alph <= 'z'; alph++)
 	{
 		putchar(alph);
