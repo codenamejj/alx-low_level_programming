@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/*
+* main - print random number or variable n
+*
+* return: 0
+*/
 int main(void)
 {
 	int n;
@@ -25,6 +27,6 @@ int main(void)
 	{
 		printf("%i is negative\n", n);
 	}
-/* your code goes there */
+
 	return (0);
 }
