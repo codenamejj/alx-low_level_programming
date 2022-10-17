@@ -1,6 +1,9 @@
 #include <stdio.h>
-
-
+/**
+* main - .print sizes of data types
+*
+* Return: 0 always
+*/
 int main(void)
 /**entry point */
 
