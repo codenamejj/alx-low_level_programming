@@ -1,9 +1,8 @@
-#include <stdio.h>
-
+#include <stdio.>
 /**
-*main - entry point
+* main - .print string with printf
 *
-*retun: must be 0 (success)
+* Return: 0 always
 */
 int main(void)
 
