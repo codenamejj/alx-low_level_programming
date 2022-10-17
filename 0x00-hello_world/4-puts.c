@@ -1,12 +1,9 @@
-/*Using puts.*/
-
 #include <stdio.h>
-
-/*
-* main - .print a string using puts
-*
-* Return: 0 always
-*/
+/**
+ * main - .print using puts
+ *
+ * Return: 0 always
+ */
 int main(void)
 
 {
