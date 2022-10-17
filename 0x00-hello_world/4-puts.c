@@ -3,14 +3,13 @@
 #include <stdio.h>
 
 /*
-* main - Init point.
+* main - .print a string using puts
 *
-* Program end: return.
+* Return: 0 always
 */
 int main(void)
 
 {
-/*we use '/' to escape the special character "*/
 	char *str = "\"Programming is like building a multilingual puzzle";
 
 	puts(str);
