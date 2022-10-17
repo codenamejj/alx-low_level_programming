@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
-* main - .print exact string
-*
-*
-*/
+  * main - print using write
+  *
+  * Return: 1 always
+  */
 int main(void)
 {
 	write(0, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
