@@ -1,7 +1,21 @@
 #ifndef _MAIN_H
 #define _MAIN_H
 
-/* my personal library*/
+
+/* LIBRARIES */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <float.h>
+#include <math.h>
+#include <string.h>
+
+
+/* PROTOTYPES */
+
+
+
 
 
 int _putchar(char c); /* printing characters */
