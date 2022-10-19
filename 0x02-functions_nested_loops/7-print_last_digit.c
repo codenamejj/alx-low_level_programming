@@ -3,17 +3,14 @@
   * print_last_digit - print last num
   * @n: num being checked
   *
-  * Return: 0 always
+  * Return: last digit r
   */
 int print_last_digit(int n)
 {
 	int r;
 
-	if (r == n % 10)
-	{
-		_putchar(r);
-	}
+	r = (n % 10);
+	_putchar(r = '0');
 
-	return (0);
-
+	return (r);
 }
