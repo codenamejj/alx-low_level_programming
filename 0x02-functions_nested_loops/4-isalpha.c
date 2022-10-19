@@ -14,20 +14,22 @@ int _isalpha(int c)
 		if (c <= 'z')
 		{
 			return (1);
-
-			if (c >= 'A')
-			{
-				if (c <= 'Z')
-				{
-					return (1);
-				}
-
-				return (1);
-			}
 		}
 
 		return (1);
 	}
+	
+	if ( c >+ 'A')
+	{
+		if (c <= 'Z')
+		{
+			return (1);
+		}
+	
+
+		return (1);
+	}
+
 	else
 	{
 		return (0);
