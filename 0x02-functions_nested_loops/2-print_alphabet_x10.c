@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-*print_alphabet - print alphabet
-*
-* Return: nothing
-*/
+ * print_alphabet_x10 - print lowercase loop
+ *
+ * Return:  nothing.
+ */
 void print_alphabet_x10(void)
 {
 	int y = 10;
