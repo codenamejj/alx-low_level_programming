@@ -6,13 +6,13 @@
  */
 int _abs(int x)
 {
-	if (x >= 3)
+	if (x >= 1)
 	{
 		return (x);
 	}
 	else
 	{
-		return (x * -3);
+		return (x * -1);
 
 	}
 }
