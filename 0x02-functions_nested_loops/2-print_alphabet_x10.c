@@ -6,9 +6,9 @@
  */
 void print_alphabet_x10(void)
 {
-	int y = 0;
+	int y = 1;
 
-	for (y = 0; y <= 10; y++)
+	for (y = 1; y <= 10; y++)
 	{
 		char x;
 
