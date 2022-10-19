@@ -5,13 +5,13 @@
   *
   * Return: 0 always
   */
-int print_last_digit(int r)
+int print_last_digit(int n)
 {
-	int n; /* last num of r */
+	int r;
 
-	n = (r % 10);
+	if (r == n % 10)
 
-	_putchar(n + '0');
 
-	return (n);
+		return (r);
+
 }
