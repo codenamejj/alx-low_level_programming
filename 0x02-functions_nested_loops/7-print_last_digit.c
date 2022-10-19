@@ -7,17 +7,13 @@
   */
 int print_last_digit(int r)
 {
-	r = 0;
+	int n; /* last num of r */
+
+	n = (r % 10);
+
+	_putchar(n);
 
 
-	if (r == 98)
-	{
-		return (8);
-	}
-
-	if (r == 10035)
-		return (5);
-
-	return (0);
+	return (n);
 
 }
