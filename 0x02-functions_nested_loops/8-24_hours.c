@@ -2,7 +2,7 @@
 /**
  * jack_bauer - print minutes
  *
- * Return: nothing 
+ * Return: nothing
  */
 void jack_bauer(void)
 {
@@ -14,10 +14,10 @@ void jack_bauer(void)
 		for (minute = 0; minute < 60; minute++)
 
 		{
-	
-		_putchar(hour);
+
+		_putchar(hour + '0');
 		_putchar(':');
-		_putchar(minute);
+		_putchar(0 + minute);
 		_putchar('\n');
 
 		}
