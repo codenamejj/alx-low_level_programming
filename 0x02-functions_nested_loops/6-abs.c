@@ -6,10 +6,10 @@
  */
 int _abs(int x)
 {
-	if (x <= 1)
+	if (x <= 0)
 		return (x);
 
 	else
 
-		return (x * x;
+		return (x * -1;
 }
