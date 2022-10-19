@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	_putchar('-')('u')('t')('c')('h')('a')('r');
+	_putchar('-putchar');
 	
 
 	_putcher('\n');
