@@ -10,7 +10,7 @@
 #include <float.h>
 #include <math.h>
 #include <string.h>
-
+#include <unistd.h>
 
 /* PROTOTYPES */
 
