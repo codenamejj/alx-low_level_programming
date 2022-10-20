@@ -7,9 +7,9 @@
 
 int main(void)
 {
-        int i;
+	int i;
 
-        i = 98;
+	i = 98;
 
 	if (i > 0)
 	{
@@ -26,5 +26,5 @@ int main(void)
 		printf("%i is negative\n", i);
 	}
 
-        return (0);
+	return (0);
 }
