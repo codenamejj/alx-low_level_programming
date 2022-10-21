@@ -3,11 +3,11 @@
   *
   * @c: character being checked
   *
-  * Return: 0 always
+  * Return: 1 or 0 always
   */
 int _isupper(int c)
 {
-	if (c == 'A' && c < 'Z')
+	if (c > 64 && c < 91)
 	{
 		return (1);
 		c++;
