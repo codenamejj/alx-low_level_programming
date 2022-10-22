@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check the code
+ * print_diagonal - check the code
  *
  *@n: number of print times
  * Return: Always 0.
