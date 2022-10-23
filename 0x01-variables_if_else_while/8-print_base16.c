@@ -6,20 +6,17 @@
 */
 int main(void)
 {
-	char alnum1;
-	char nume2;
+	int x;
+	int y;
 
-	for (nume2 = '0; nume2 <= '9'; nume2++)
-	{
-		putchar(nume2);
-	}
+	for (x = 0; x < 10; x++)
+		printf("%d", x);
+	
+	for (y = 'a'; y < 'g'; y++)
+		printf("%c", y);
+	
+	printf("\n");
 
-	for (alnum1 = 'a'; alnum1 <= 'f'; alnum1++)
-	{
-		putchar(alnum1);
-	{
-
-	putchar('\n');
 	return (0);
 
 }
