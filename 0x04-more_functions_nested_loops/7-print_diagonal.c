@@ -5,7 +5,7 @@
  *@n: number of print times
  * Return: Always 0
  */
- void print_diagonal(int n)
+void print_diagonal(int n)
 {
 	int i, x;
 
