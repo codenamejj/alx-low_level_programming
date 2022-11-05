@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * is_prime_number - returns 1 if the input integer is a prime number, otherwise return 0.
+ * is_prime_number - return prime number.
  * @n: prime number
  *
  * Return: Always 0.
@@ -8,6 +8,7 @@
 int is_prime_number(int n)
 {
 	int z;
+
 	z = 2;
 
 	if (n % z == 0 || n % z == 1)
@@ -19,6 +20,5 @@ int is_prime_number(int n)
 	}
 	else
 		return (0);
-	return is_prime_number(n);
-	
+	return (is_prime_number(n));
 }
