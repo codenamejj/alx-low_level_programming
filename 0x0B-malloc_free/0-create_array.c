@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * create_array - creates an array of chars
- * @c: character variable
- * @size: unsigned int
+ * and initializes it with a specific char.
+ * @c: vector
+ * @size: array size
  *
  * Return: NULL if size = 0.
  */
@@ -19,7 +20,10 @@ char *create_array(unsigned int size, char c)
 	}
 	for (i = 0; i < size; i++)
 	{
-		return (ar);
+		if (size > 0)
+		{
+			return (ar);
+		}
 	}
 	return (0);
 }
