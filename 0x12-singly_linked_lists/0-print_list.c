@@ -18,20 +18,26 @@ typedef struct list_s
 /**
   * print_list - print list
   * @h: points to constant
-  * Return: 0
+  * Return: number of nodes
   *
   */
 size_t print_list(const list_t *h)
 {
 	int count = 0;
-	while (str != NULL)
+	while (h)
 	{
-		str++;
-		count++;
-	}
-	return (count);
+		if (str != NULL)
+		{
+			str++;
+			count++;
+		}
+		return (count);
 
-	printf("[%d] %s\n", count, str);
-	
+		printf("[%d] %s\n", count, h->str);
+		h = h->next;
+
+		else
+		print("[0] (nil)\n")
+	}
 	return (0);
 }
