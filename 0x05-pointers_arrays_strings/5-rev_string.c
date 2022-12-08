@@ -20,7 +20,7 @@ void rev_string(char *s)
 				count++;
 		}
 	}
-	while (index)
+	while (count)
 	{
 		for (index = count - 1; index >=0; index --)
 			if (count != 0)
