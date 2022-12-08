@@ -7,22 +7,11 @@
   */
 void rev_string(char *s)
 {
-	int count = 10;
-	int index;
+	int count = 0;
 
 
-	while (s[count])
+	while (s[count] != 0)
 	{
-		for (index = 0; index < count; index++)
-		{
-			if (count >= 0)
-				count++;
-		}
-	}
-	while (count)
-	{
-		for (index = count - 1; index >= 0; index--)
-			if (count != 0)
-				count--;
+		count++;
 	}
 }
