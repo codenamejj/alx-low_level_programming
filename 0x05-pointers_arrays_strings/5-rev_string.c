@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-  *
-  *
-  *
+  * rev_string - print array string in reverse
+  * @s: pointer to character array
+  * Return: nothing
   *
   */
 void rev_string(char *s)
@@ -13,7 +13,6 @@ void rev_string(char *s)
 
 	while (s[count])
 	{
-		
 		for (index = 0; index < count; index++)
 		{
 			if (count >= 0)
@@ -22,7 +21,7 @@ void rev_string(char *s)
 	}
 	while (count)
 	{
-		for (index = count - 1; index >=0; index --)
+		for (index = count - 1; index >= 0; index--)
 			if (count != 0)
 				count--;
 	}
