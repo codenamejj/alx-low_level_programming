@@ -5,7 +5,7 @@
   * @argv: value
   * Return: 0 if success or 1 if error
   */
-int main(int argc, int argv[])
+int main(int argc, char argv[])
 {
 	int fd;
 	char usage[] = "Usage: cp file_from file_to";
