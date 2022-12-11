@@ -12,7 +12,7 @@ int create_file(const char *filename, char *text_content)
 	int size = sizeof(text_content);
 	char buf[1024];
 
-	fd = open("filename", O_CREAT | O_RDWR);
+	fd = open("filename", O_CREAT | O_RDWR | O_APPEND);
 	if (filename == NULL)
 	{
 		write(fd, "", 1);
