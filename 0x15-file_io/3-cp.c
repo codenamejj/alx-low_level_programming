@@ -1,7 +1,6 @@
 #include "main.h"
-#include "main.h"
 /**
-  * main - checks code
+  * main - copies the content of a file to another file
   * @argc: count
   * @argv: value
   * Return: 0 if success or 1 if error
