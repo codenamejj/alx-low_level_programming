@@ -9,7 +9,7 @@ int main(int argc, char argv[])
 {
 	int fd;
 	char usage[] = "Usage: cp file_from file_to";
-	char error[] = "rror: Can't read from file NAME_OF_THE_FILE";
+	char error[] = "error: Can't read from file NAME_OF_THE_FILE";
 
 	fd = open("file_from", O_RDWR | O_APPEND);
 	if (fd == -1)
