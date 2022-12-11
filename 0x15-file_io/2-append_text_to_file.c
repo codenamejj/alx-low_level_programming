@@ -16,7 +16,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	if (filename == NULL)
 	{
 		return (-1);
-        }
+	}
 
 	write(ex, "Hello World!\n", 12);
 	close(ex);
@@ -24,7 +24,6 @@ int append_text_to_file(const char *filename, char *text_content)
 	open("hello", O_RDONLY);
 	if (text_content == NULL)
 	return (-1);
-	
 
 	read(ex, buf, 12);
 	buf[12] = '\0';
