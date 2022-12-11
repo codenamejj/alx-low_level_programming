@@ -14,14 +14,11 @@ int main(int argc, char argv[])
 	fd = open("file_from", O_RDWR | O_APPEND);
 	if (fd == -1)
 	{
-		_putchar(usage);
-		_putchar('\n');
 		exit(97);
 	}
 	if (!file_from | !file_from == NULL)
 	{
-		_putchar(error);
-		_putchar('\n');
+
 		exit(98);
 	}
 
