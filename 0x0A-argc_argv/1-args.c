@@ -7,7 +7,10 @@
   */
 int main(int argc, char **argv)
 {
-	printf("Arguments passed to main = %d\n", argc);
+	if (argc)
+	{
+		printf("%d\n", argc);
+	}
 
 	return (0);
 }
