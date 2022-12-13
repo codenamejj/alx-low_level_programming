@@ -21,14 +21,6 @@ int main(int argc, char **argv)
 	{
 		for (count = 1; count < argc; count++)
 		{
-			while (argv[count])
-			{
-				if (isdigit(atoi(argv[count])) == 0)
-				{
-					printf("Error\n");
-					return (1);
-				}
-			}	
 			sum = sum + (atoi(argv[count]));
 		}
 		printf("%d\n", sum);
