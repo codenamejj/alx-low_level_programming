@@ -18,7 +18,15 @@ int main(int argc, char **argv)
 	{
 		for (count = 1; count < argc; count++)
 		{
-			sum = sum + (atoi(argv[count]));
+			if (atoi(argv[count]) != 0)
+			{
+				sum = sum + (atoi(argv[count]));
+			}
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
 		printf("%d\n", sum);
 		return (0);
