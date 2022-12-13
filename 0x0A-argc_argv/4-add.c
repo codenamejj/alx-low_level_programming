@@ -15,8 +15,6 @@ int main(int argc, char **argv)
 	{
 		printf("0\n");
 	}
-
-	
 	if (argc > 2)
 	{
 		for (count = 1; count < argc; count++)
@@ -25,8 +23,6 @@ int main(int argc, char **argv)
 		}
 		printf("%d\n", sum);
 		return (0);
-	}	
+	}
 	return (0);
 }
-		
-
