@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 				return (1);
 
 			}
-			else if (atoi(argv[count]) != 0 | atoi(argv[count]) % 10 == 0.0)
+			else if (atoi(argv[count]) != 0 || atoi(argv[count]) % 10 == 0.0)
 			{
 				sum = sum + (atoi(argv[count]));
 
