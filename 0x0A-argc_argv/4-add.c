@@ -18,7 +18,7 @@ int main(int argc, char **argv)
 	{
 		for (count = 1; count < argc; count++)
 		{
-			if (atoi(argv[count]) != 0)
+			if (isdigit(atoi(argv[count]) != 0))
 			{
 				sum = sum + (atoi(argv[count]));
 			}
