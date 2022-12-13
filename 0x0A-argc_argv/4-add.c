@@ -8,30 +8,26 @@
   */
 int main(int argc, char **argv)
 {
-	int count, sum = 0;
+	int sum, count, x;
 
+	sum = 0;
 	if (argc < 2)
 	{
 		printf("0\n");
+		return (0);
 	}
-	if (argc > 2)
+	for (count = 1; count < argc; count++)
 	{
-		for (count = 1; count < argc; count++)
+		for (x = 0; argv[count][x] != 0; x++)
 		{
-			if (atoi(argv[count]) == 0)
+			if (!isdigit(argv[count][x]))
 			{
 				printf("Error\n");
 				return (1);
-
-			}
-			else if (atoi(argv[count]) != 0 || atoi(argv[count]) % 10 == 0.0)
-			{
-				sum = sum + (atoi(argv[count]));
-
 			}
 		}
-		printf("%d\n", sum);
-		return (0);
+		sum += atoi(argv[count]);
 	}
+	printf("%d\n", sum);
 	return (0);
 }
